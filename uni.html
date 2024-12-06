@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>unit convertor home page</title>
+    <link rel="stylesheet" href="uni.css" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <h1>unit convertor</h1>
+      <div class="convertor">
+        <span class="fti">Feet to Inch</span>
+        <span class="itf">Inch to Feet</span>
+      </div>
+      <div class="input-div">
+        <label for="feet"></label><span class="span">Feet</span>
+        <input
+          type="number"
+          name="number"
+          class="inpt"
+          value=" "
+          id="feet"
+          readonly
+        />
+      </div>
+      <!-- second pase -->
+      <div class="input-div">
+        <label for="inch"></label>
+        <span class="span">Inch</span>
+        <input
+          type="number"
+          name="number"
+          class="inpt"
+          value="inch"
+          readonly
+          id="inch"
+        />
+      </div>
+      <button>convert</button>
+    </div>
+    <br />
+    <script src="uni.js"></script>
+  </body>
+</html>
